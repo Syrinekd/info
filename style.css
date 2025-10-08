@@ -1,0 +1,65 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Menu (nav) */
+nav {
+    display: inline-block;
+    width: 150px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 10px 10px 0;
+    vertical-align: top;
+}
+nav ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Section principale */
+section {
+    display: inline-block;
+    width: 70%;
+    border: 1px solid blue;
+    padding: 10px;
+    vertical-align: top;
+    color: darkblue;            /* couleur du texte de la section */
+}
+
+/* Personnalisation des titres */
+h1 {
+    color: darkred;             /* titres principaux en rouge foncé */
+    font-size: 26px;            /* taille plus grande */
+    text-transform: uppercase;  /* mettre en majuscules */
+}
+
+h2 {
+    color: teal;                /* sous-titres en vert/bleu */
+    font-style: italic;         /* style italique */
+}
+
+/* Personnalisation des paragraphes */
+p {
+    color: #333;                /* gris foncé */
+    line-height: 1.6;           /* espace entre les lignes */
+    text-align: justify;        /* texte justifié */
+    font-size: 14px;
+}
+
+/* À propos de l'auteur */
+aside {
+    margin-bottom: 20px;
+}
+
+/* Article */
+article {
+    margin-top: 10px;
+}
+
+/* Pied de page */
+footer {
+    margin-top: 20px;
+    font-size: small;
+    color: gray;                 /* texte du footer en gris */
+}
